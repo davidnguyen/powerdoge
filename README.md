@@ -2,8 +2,8 @@
 
 ![power-doge](docs/pd.webp "Power Doge Much Code")
 
-PowerDoge is an open source framework / starterkit template for building model driven app solutions in PowerApps that
-makes extensive use of the JavaScript client libraries and approaches.
+PowerDoge is an open source starterkit template with some framework elements for building model driven app solutions in PowerApps that
+makes extensive use of JavaScript client libraries and approaches.
 
 ## Pre-requisites
 * VS Code
