@@ -1,0 +1,32 @@
+{
+  "name": "powerdoge",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "yarn eslint .",
+    "modelgen": "node tools/modelGen.mjs",
+    "build": "node tools/solutionBuild.mjs",
+    "sync": "node tools/solutionSync.mjs",
+    "deploy": "node tools/solutionDeploy.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@node-minify/cli": "^8.0.6",
+    "@node-minify/uglify-es": "^8.0.6",
+    "@stylistic/eslint-plugin": "^2.6.4",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.5.0",
+    "@types/webpack": "^5.28.5",
+    "@types/xrm": "^9.0.80",
+    "eslint": "^9.9.1",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.2.0",
+    "uglify-es": "^3.3.9",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "xml2json": "^0.12.0"
+  }
+}
