@@ -1,0 +1,9 @@
+{
+    "settings": [
+        {
+            "key": "solutionName",
+            "value": "Sample1Solution",
+            "description": "The name of the solution in the PowerApps environments"
+        }
+    ]
+}

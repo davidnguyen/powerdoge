@@ -17,12 +17,12 @@ npm install -g yarn
 
 ## Getting started
 Installing dependencies:
-```
+``` Sh
 yarn install
 ```
 
 Authenticate PAC with your PowerApps DEV environment:
-```
+``` Sh
 pac auth
 ```
 
