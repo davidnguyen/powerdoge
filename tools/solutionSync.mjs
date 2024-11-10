@@ -16,7 +16,7 @@ spawnSync(
 
 console.log(`Unpacking solution ${solution}...`)
 if (fs.existsSync(`src/${solution}/${SolutionPackageFolder}`)) {
-    fs.rmdirSync(`src/${solution}/${SolutionPackageFolder}`, { recursive: true, force: true })
+    fs.rmSync(`src/${solution}/${SolutionPackageFolder}`, { recursive: true, force: true })
 }
 spawnSync(
     'pac',

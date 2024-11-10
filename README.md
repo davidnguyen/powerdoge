@@ -23,7 +23,7 @@ yarn install
 
 Authenticate PAC with your PowerApps DEV environment:
 ``` Sh
-pac auth
+pac auth create
 ```
 
 ## Working with solutions
